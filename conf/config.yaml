@@ -1,0 +1,24 @@
+project: apiserver           # API Server的名字
+runmode: debug               # 开发模式, debug, release, test
+port: :5001                  # HTTP绑定端口
+url: http://127.0.0.1:5001   # pingServer函数请求的API服务器的ip:port
+max_ping_count: 10           # pingServer函数try的次数
+log:                         # 日志配置
+  writers: file,stdout
+  logger_level: DEBUG
+  logger_file: log/apiserver.log
+  log_format_text: false
+  rollingPolicy: size
+  log_rotate_date: 1
+  log_rotate_size: 1
+  log_backup_count: 7
+DB:                           # MySQL db config
+  name: db_apiserver
+  addr: localhost:3306
+  username: root
+  password: '123456'
+DOCKER_DB:  
+  name: db_apiserver
+  addr: localhost:3306
+  username: root
+  password: '123456'

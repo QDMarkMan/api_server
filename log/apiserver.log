@@ -1,0 +1,102 @@
+{"level":"INFO","timestamp":"2020-03-01 16:00:15.818","file":"config/config.go:39","msg":"Config file changed: /Users/etongfu/Documents/Code/go-projects/api_server/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-03-01 16:00:17.618","file":"config/config.go:39","msg":"Config file changed: /Users/etongfu/Documents/Code/go-projects/api_server/conf/config.yaml"}
+{"level":"ERROR","timestamp":"2020-03-01 17:22:33.756","file":"model/init.go:49","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2020-03-01 17:36:52.479","file":"model/init.go:33","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"ERROR","timestamp":"2020-03-01 17:39:55.652","file":"model/init.go:51","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}}
+{"level":"ERROR","timestamp":"2020-03-01 17:39:55.653","file":"model/init.go:51","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2020-03-01 17:40:29.630","file":"config/config.go:39","msg":"Config file changed: /Users/etongfu/Documents/Code/go-projects/api_server/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-03-01 17:41:13.059","file":"config/config.go:39","msg":"Config file changed: /Users/etongfu/Documents/Code/go-projects/api_server/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-03-01 17:41:13.297","file":"config/config.go:39","msg":"Config file changed: /Users/etongfu/Documents/Code/go-projects/api_server/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-03-01 17:41:13.495","file":"config/config.go:39","msg":"Config file changed: /Users/etongfu/Documents/Code/go-projects/api_server/conf/config.yaml"}
+{"level":"ERROR","timestamp":"2020-03-01 17:41:17.210","file":"model/init.go:51","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}}
+{"level":"ERROR","timestamp":"2020-03-01 17:41:17.212","file":"model/init.go:51","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2020-03-01 17:45:23.766","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-01 17:45:23.768","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-02 22:54:31.978","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-02 22:54:31.980","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 22:59:35.396","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 22:59:35.399","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:00:30.522","file":"user/create.go:28","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:00:30.523","file":"user/create.go:31","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:00:30.523","file":"user/create.go:34","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:00:30.523","file":"user/create.go:36","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-04 23:00:57.323","file":"user/create.go:28","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:00:57.323","file":"user/create.go:31","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:00:57.323","file":"user/create.go:34","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:00:57.323","file":"user/create.go:36","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-04 23:02:07.887","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:02:07.889","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:02:11.414","file":"user/create.go:28","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:02:11.414","file":"user/create.go:31","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:02:11.414","file":"user/create.go:34","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:02:11.414","file":"user/create.go:36","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-04 23:02:13.572","file":"user/create.go:28","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:02:13.572","file":"user/create.go:31","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:02:13.572","file":"user/create.go:34","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:02:13.572","file":"user/create.go:36","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:01.836","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:01.838","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:20.305","file":"user/create.go:28","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:20.305","file":"user/create.go:31","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:03:20.305","file":"user/create.go:34","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:03:20.305","file":"user/create.go:36","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:45.109","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:45.112","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:46.870","file":"user/create.go:29","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:03:46.870","file":"user/create.go:32","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:03:46.870","file":"user/create.go:35","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:03:46.870","file":"user/create.go:37","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-04 23:04:18.151","file":"user/create.go:29","msg":"URL username: admin"}
+{"level":"INFO","timestamp":"2020-03-04 23:04:18.151","file":"user/create.go:32","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2020-03-04 23:04:18.152","file":"user/create.go:35","msg":"URL content type is: "}
+{"level":"DEBUG","timestamp":"2020-03-04 23:04:18.152","file":"user/create.go:37","msg":"username is: [], password is []"}
+{"level":"INFO","timestamp":"2020-03-08 11:23:33.411","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 11:23:33.413","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:44:41.744","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:44:41.746","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:49:15.065","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:49:15.067","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:49:48.581","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:49:48.582","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:54:27.572","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 16:54:27.573","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:00:20.789","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:00:20.791","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:01:19.451","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:01:19.453","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:06:05.894","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:06:05.895","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:07:00.406","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:07:00.408","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:08:23.259","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:08:23.261","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:10:46.422","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:10:46.426","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:12:51.283","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:12:51.286","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:14:50.136","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:14:50.137","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:18:38.473","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:18:38.474","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:21:23.901","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:21:23.902","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:21:41.746","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:21:41.749","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:22:01.865","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:22:01.867","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:22:35.098","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 17:22:35.100","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 22:25:29.895","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-08 22:25:29.898","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 21:43:39.410","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 21:43:39.412","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 21:47:47.053","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 21:47:47.055","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:12:26.439","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:12:26.441","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:12:56.450","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:12:56.451","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:13:11.151","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:13:11.153","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:13:25.528","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-09 22:13:25.529","file":"model/init.go:52","msg":"Connect Database success!"}
