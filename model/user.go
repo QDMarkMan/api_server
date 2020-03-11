@@ -25,6 +25,12 @@ func (u *UserModel) Create() error {
 	return DB.Self.Create(&u).Error
 }
 
+func GetUser(user string) (*UserModel, error) {
+	u := &UserModel{}
+	d := DB.Self.Where("username = ?", user).First(&u)
+	return u, d.Error
+}
+
 func ListUser(username string, offset, limit int) ([]*UserModel, uint64, error) {
 	if limit == 0 {
 		limit = constant.DefaultLimit

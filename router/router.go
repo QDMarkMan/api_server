@@ -29,6 +29,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 			"message": "welcome to api server",
 		})
 	})
+	g.POST("/login", user.Login)
 	// The health check handlers
 	svcd := g.Group("/sd")
 	{
