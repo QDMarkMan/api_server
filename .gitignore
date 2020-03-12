@@ -1,0 +1,8 @@
+.DS_Store
+dist/*
+log/*
+build/*
+.vscode/*
+coverage
+thumbs.db
+!.gitkeep

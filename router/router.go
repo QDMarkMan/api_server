@@ -40,6 +40,8 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	}
 
 	u := g.Group("v1/user")
+	// 为指定的路由使用中间件
+	u.Use(middleware.AuthMiddleware())
 	{
 		u.POST("create", user.Create)
 		u.GET("list", user.UserList)

@@ -7,6 +7,7 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	"github.com/lexkong/log"
 	"github.com/spf13/viper"
 )
 
@@ -50,22 +51,24 @@ func ParseRequest(c *gin.Context) (*Context, error) {
 		return &Context{}, ErrMissingHeader
 	}
 
-	var t string
-	fmt.Sprintf(header, "Bearer %s", &t)
-
+	var t string // t 主要是取Bearer 后面的token部分
+	// Parse the header to get the token part.
+	fmt.Sscanf(header, "Bearer %s", &t)
 	return Parse(t, secret)
 }
 
 func Sign(ctx *gin.Context, c Context, secret string) (tokenString string, err error) {
+
 	if secret == "" {
 		secret = viper.GetString("jwt_secret")
 	}
-	token := jwt.NewWithClaims(jwt.SigningMethodES256, jwt.MapClaims{
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 		"id":       c.ID,
 		"username": c.Username,
-		"nbf":      time.Now().Unix,
-		"iat":      time.Now().Unix,
+		"nbf":      time.Now().Unix(),
+		"iat":      time.Now().Unix(),
 	})
 	tokenString, err = token.SignedString([]byte(secret))
+	log.Debug("tokenString is:" + tokenString)
 	return
 }
