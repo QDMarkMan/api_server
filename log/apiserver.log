@@ -150,3 +150,7 @@
 {"level":"INFO","timestamp":"2020-03-12 20:12:46.440","file":"model/init.go:52","msg":"Connect Database success!"}
 {"level":"INFO","timestamp":"2020-03-12 20:14:46.014","file":"model/init.go:52","msg":"Connect Database success!"}
 {"level":"INFO","timestamp":"2020-03-12 20:14:46.016","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-14 22:35:46.732","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-14 22:35:46.734","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"DEBUG","timestamp":"2020-03-14 22:36:18.707","file":"token/token.go:72","msg":"tokenString is:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODQxOTY1NzgsImlkIjo0LCJuYmYiOjE1ODQxOTY1NzgsInVzZXJuYW1lIjoiYWRtaW4zIn0.0QaI4bGHdewuo0iiAJjxPhIe9J625TexhuinwlQqarA"}
+{"level":"INFO","timestamp":"2020-03-14 22:38:24.468","file":"user/update.go:16","msg":"Call update user"}

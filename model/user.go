@@ -21,8 +21,11 @@ func (userModel *UserModel) TableName() string {
 
 // Create new user
 func (u *UserModel) Create() error {
-	fmt.Println(*u)
 	return DB.Self.Create(&u).Error
+}
+
+func (u *UserModel) Update() error {
+	return DB.Self.Save(&u).Error
 }
 
 func GetUser(user string) (*UserModel, error) {
