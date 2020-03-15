@@ -28,6 +28,12 @@ func (u *UserModel) Update() error {
 	return DB.Self.Save(&u).Error
 }
 
+func Delete(id uint64) error {
+	user := UserModel{}
+	user.BaseModel.ID = id
+	return DB.Self.Delete(&user).Error
+}
+
 func GetUser(user string) (*UserModel, error) {
 	u := &UserModel{}
 	d := DB.Self.Where("username = ?", user).First(&u)

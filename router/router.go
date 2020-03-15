@@ -46,6 +46,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		u.POST("create", user.Create)
 		u.GET("list", user.UserList)
 		u.POST("update", user.Update)
+		u.POST("delete", user.DeleteUser)
 	}
 	return g
 }

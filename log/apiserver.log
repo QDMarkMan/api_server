@@ -154,3 +154,6 @@
 {"level":"INFO","timestamp":"2020-03-14 22:35:46.734","file":"model/init.go:52","msg":"Connect Database success!"}
 {"level":"DEBUG","timestamp":"2020-03-14 22:36:18.707","file":"token/token.go:72","msg":"tokenString is:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODQxOTY1NzgsImlkIjo0LCJuYmYiOjE1ODQxOTY1NzgsInVzZXJuYW1lIjoiYWRtaW4zIn0.0QaI4bGHdewuo0iiAJjxPhIe9J625TexhuinwlQqarA"}
 {"level":"INFO","timestamp":"2020-03-14 22:38:24.468","file":"user/update.go:16","msg":"Call update user"}
+{"level":"INFO","timestamp":"2020-03-15 22:12:41.732","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"INFO","timestamp":"2020-03-15 22:12:41.735","file":"model/init.go:52","msg":"Connect Database success!"}
+{"level":"DEBUG","timestamp":"2020-03-15 22:13:12.572","file":"token/token.go:72","msg":"tokenString is:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODQyODE1OTIsImlkIjo0LCJuYmYiOjE1ODQyODE1OTIsInVzZXJuYW1lIjoiYWRtaW4zIn0.jgDv1ZVsNgk7PQt6_qrKEffD6OxpBWhvnMj1vO-aZ2I"}
